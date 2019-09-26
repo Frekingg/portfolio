@@ -1,0 +1,152 @@
+body {
+    background-color: #D8F0FF;
+}
+/*
+h1{
+    background-color: #555
+}
+*/
+
+
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+
+/* Navigation links */
+.navbar a {
+    float: left;
+    padding: 10px;
+    color: white;
+    text-decoration:none;
+    font-size: 20px;
+    width: 23.3%;
+    text-align: center;
+    /* If you want the text to be centered */
+}
+
+/* Add a background color on mouse-over */
+.navbar a:hover {
+    background-color: #000;
+}
+
+/* Style the current/active link */
+.navbar a:active {
+    background-color: #529dcc;
+}
+
+#bannerimg {
+    width: 100%;
+    height: auto;
+}
+
+.wordsbox {
+    position: absolute;
+    left:760px; 
+    top:400px;
+/*    right:200px; */
+    width: 20%;
+    margin: 1rem;
+    padding: 2rem;
+    color: #FFF;
+    font-size: .9rem;
+    font-weight: bold;
+    text-align: left;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: hidden;
+    background-color: #336280;
+}
+.pic {
+    position: absolute;
+    width: 20%;
+    margin: 3rem;
+    top: 250px;
+    right: 425px;
+    padding: 10px;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: double;
+
+}
+.picnorm {
+    position: absolute;
+    width: 20%;
+    margin: 3rem;
+    top: 160px;
+    right: 100px;
+    padding: 10px;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: solid;
+    border-style: double;
+
+}
+
+.box {
+    position: relative;
+    width: 50%;
+    margin: 1rem;
+    padding: 2rem;
+    color: #FFF;
+    font-size: .9rem;
+    font-weight: bold;
+    text-align: left;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: double;
+    background-color: #414141;
+}
+
+.backbox {
+    position: relative;
+    width: 50%;
+    margin: 1rem;
+    padding: 2rem;
+    color: #FFF;
+    font-size: .9rem;
+    font-weight: bold;
+    text-align: left;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: double;
+    background-color: #414141;
+}
+
+.projectbox {
+    position: relative;
+    width: 25%;
+    margin: 1rem;
+    padding: 2rem;
+    color: #FFF;
+    font-size: .9rem;
+    font-weight: bold;
+    text-align: left;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: double;
+    background-color: #414141;
+}
+
+
+.footer {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 250px;
+    right: 10px;
+    border: 6px solid #529dcc;
+}
+
+/*
+iframe {
+    height: 660px;
+    width: 650px;
+}
+*/
