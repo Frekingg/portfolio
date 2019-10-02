@@ -44,9 +44,9 @@ h1{
 }
 
 .wordsbox {
-    position: relative;
-    left:440px; 
-    top:370px;
+    position: absolute;
+    left:330px; 
+    top:650px;
 /*    right:200px; */
     width: 25%;
     margin: 1rem;
@@ -62,11 +62,11 @@ h1{
     background-color: #336280;
 }
 .pic {
-    position: absolute;
+    position:absolute;
     width: 20%;
     margin: 3rem;
     top: 270px;
-    right: 425px;
+    right: 330px;
     padding: 10px;
     border-width: 10px;
     border-radius: 30px;
