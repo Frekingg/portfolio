@@ -136,7 +136,7 @@ h1{
 }
 
 .projectbox {
-    position: relative;
+    position: absolute;
     width: ;
     margin: 1rem;
     padding: 1.9rem;
