@@ -44,11 +44,11 @@ h1{
 }
 
 .wordsbox {
-    position: absolute;
+    position: relative;
 /*    left:300px; */
-    top:700px;
-/*    right:200px; */
-    width: 25%;
+    top:500px;
+    left:20px; 
+    width: 20%;
     margin: 1rem;
     padding: 2rem;
     color: #FFF;
@@ -65,7 +65,7 @@ h1{
     position:absolute;
     width: 20%;
     margin: 3rem;
-    top: 270px;
+    top: 300px;
 /*    right: 350px;*/
     padding: 10px;
     border-width: 10px;
@@ -75,11 +75,11 @@ h1{
 
 }
 .picnorm {
-    position: absolute;
+    position:absolute;
     width: 20%;
     margin: 3rem;
-    top: 160px;
-    right: 100px;
+    top: 200px ;
+    left: 1000px;
     padding: 10px;
     border-width: 10px;
     border-radius: 30px;
@@ -118,6 +118,22 @@ h1{
     border-style: double;
     background-color: #414141;
 }
+.lthoughtsbox {
+    position: relative;
+    width: ;
+    margin: 1rem;
+    padding: 2rem;
+    color: #FFF;
+    font-size: .9rem;
+    font-weight: bold;
+    text-align:center;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: double;
+    background-color: #414141;
+}
+
 
 .backbox {
     position: relative;
@@ -136,8 +152,11 @@ h1{
 }
 
 .projectbox {
-    position: absolute;
-    width: ;
+    position: relative;
+    
+    width: 93%;
+/*        width: 250px;*/
+
     margin: 1rem;
     padding: 1.9rem;
     color: #FFF;
@@ -149,6 +168,20 @@ h1{
     border-color: black;
     border-style: double;
     background-color: #414141;
+}
+
+.lightningbox {
+    position:absolute;
+    width: 20%;
+    height: auto;
+    margin: 3rem;
+    top: 300px;
+    left: 400px;
+    padding: 10px;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: double;
 }
 
 
