@@ -79,7 +79,20 @@ h1{
     width: 20%;
     margin: 3rem;
     top: 200px ;
-    left: 1000px;
+    left: 950px;
+    padding: 10px;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: solid;
+    border-style: double;
+
+}
+.senior {
+    position:absolute;
+    width: 20%;
+    margin: 3rem;
+    top: 200px ;
+    left: 900px;
     padding: 10px;
     border-width: 10px;
     border-radius: 30px;
