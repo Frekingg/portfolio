@@ -1,0 +1,294 @@
+body {
+    background-color: #D8F0FF;
+}
+
+/*
+h1{
+    background-color: #555
+}
+*/
+
+
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+
+/* Navigation links */
+.navbar a {
+    float: left;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 25%;
+    /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center;
+    /* If you want the text to be centered */
+}
+
+/* Add a background color on mouse-over */
+.navbar a:hover {
+    background-color: #000;
+}
+
+/* Style the current/active link */
+.navbar a:active {
+    background-color: #529dcc;
+}
+
+#bannerimg {
+    width: 100%;
+    height: auto;
+}
+
+.picnorm {
+    position: relative;
+    width: 20%;
+    margin: 3rem;
+    left: 180px;
+    top: 50px;
+    /*    top:px;*/
+    /*    right: 20px;;*/
+    padding: 10px;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: solid;
+    border-style: double;
+
+}
+
+/*
+.wordsbox {
+    position: relative;
+                              left:300px; 
+    top:500px;
+    left:400px; 
+    width: 20%;
+    margin: 1rem;
+    padding: 2rem;
+    color: #FFF;
+    font-size: .9rem;
+    font-weight: bold;
+    text-align: center;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: hidden;
+    background-color: #336280;
+}
+*/
+.pic {
+    position: absolute;
+    width: 20%;
+    margin: 3rem;
+    right: 50%;
+    /*    right: 350px;*/
+    padding: 10px;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: double;
+
+}
+
+.senior {
+    position: absolute;
+    width: 20%;
+    margin: 3rem;
+    top: 200px;
+    left: 900px;
+    padding: 10px;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: solid;
+    border-style: double;
+
+}
+
+.box1 {
+    position: relative;
+    width: 50%;
+    margin: 1rem;
+    padding: 2rem;
+    color: #FFF;
+    font-size: .9rem;
+    font-weight: bold;
+    text-align: left;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: double;
+    background-color: #414141;
+}
+
+.thoughtsbox {
+    position: relative;
+    width: ;
+    margin: 1rem;
+    padding: 2rem;
+    color: #FFF;
+    font-size: .9rem;
+    font-weight: bold;
+    text-align: center;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: double;
+    background-color: #414141;
+}
+
+.lthoughtsbox {
+    position: relative;
+    width: ;
+    margin: 1rem;
+    padding: 2rem;
+    color: #FFF;
+    font-size: .9rem;
+    font-weight: bold;
+    text-align: center;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: double;
+    background-color: #414141;
+}
+
+.dthoughtsbox {
+    position: relative;
+    width: ;
+    margin: 1rem;
+    padding: 2rem;
+    color: #FFF;
+    font-size: .9rem;
+    font-weight: bold;
+    text-align: center;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: double;
+    background-color: #414141;
+}
+
+.cthoughtsbox {
+    position: relative;
+    width: ;
+    margin: 1rem;
+    padding: 2rem;
+    color: #FFF;
+    font-size: .9rem;
+    font-weight: bold;
+    text-align: center;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: double;
+    background-color: #414141;
+}
+.sthoughtsbox {
+    position: relative;
+    width: ;
+    margin: 1rem;
+    padding: 2rem;
+    color: #FFF;
+    font-size: .9rem;
+    font-weight: bold;
+    text-align: center;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: double;
+    background-color: #414141;
+}
+
+
+
+.backbox {
+    position: relative;
+    width: 50%;
+    margin: 1rem;
+    padding: 2rem;
+    color: #FFF;
+    font-size: .9rem;
+    font-weight: bold;
+    text-align: left;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: double;
+    background-color: #414141;
+}
+
+/*
+.projectbox {
+    position: relative;
+    
+    width: 40%;
+        width: 250px;
+
+    margin: 1rem;
+    padding: 1.9rem;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: double;
+    background-color: #414141;
+}
+*/
+/*
+.jsbox {
+    position: absolute;
+    
+    width: 35%;
+        width: 250px;
+    left: 53%;
+    top: 210px;
+
+    margin: 1rem;
+    padding: 1.9rem;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: double;
+    background-color: #414141;
+}
+*/
+
+.box {
+    position: relative;
+    height: auto;
+    margin: 3rem;
+    width: 20%;
+    padding: 10px;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: double;
+}
+
+
+.footer {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 250px;
+    right: px;
+    border: 6px solid #529dcc;
+}
+
+/*
+iframe {
+    height: 660px;
+    width: 650px;
+}
+*/
