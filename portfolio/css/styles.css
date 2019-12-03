@@ -98,8 +98,8 @@ h1{
     position: absolute;
     width: 20%;
     margin: 3rem;
-    top: 200px;
-    left: 900px;
+    top: 100px;
+    right:50px;;
     padding: 10px;
     border-width: 10px;
     border-radius: 30px;
@@ -286,9 +286,112 @@ h1{
     border: 6px solid #529dcc;
 }
 
-/*
-iframe {
-    height: 660px;
-    width: 650px;
+.flex-container {
+    display: flex;
+    flex-flow: row nowrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: stretch;
+    border: 5px solid #42352c;
 }
-*/
+
+.child0 {
+   flex-basis:30%;
+    padding: 1rem;
+    height: 10%;
+/*    margin: auto;*/
+    color: #FFF;
+/*    font-weight: bold;*/
+    text-align: left;
+    border-width: 10px;
+    border-radius: 10px;
+    border-color: gainsboro;
+    border-style: groove;
+    background-color: #414141;
+    font-size: 18px;
+    font-family: monospace;
+}
+
+.child1 {
+  flex-basis:30%;
+    padding: 1rem;
+    height: 10%;
+    margin: auto;
+    color: #FFF;
+/*    font-weight:;*/
+    text-align: left;
+    border-width: 10px;
+    border-radius: 10px;
+    border-color: gainsboro;
+    border-style: groove;
+    background-color: #414141;
+    font-size: 20px;
+    font-family:monospace;
+}
+
+.child2 {
+    flex-basis:20%;
+    padding: 1rem;
+    height: 10%;
+    margin: .5%;
+    color: #FFF;
+    font-weight: bold;
+    text-align: left;
+    border-width: 10px;
+    border-radius: 10px;
+    border-color: gainsboro;
+    border-style: groove;
+    background-color: #414141;
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.toc{
+ padding: 1rem;
+    height: 100px;
+    width: 150px;
+/*    left: 50%;*/
+/*    margin-left: 50%;*/
+/*    margin: auto;*/
+    color: #FFF;
+/*    font-weight:;*/
+    text-align: left;
+    border-width: 10px;
+    border-radius: 10px;
+    border-color: gainsboro;
+    border-style: groove;
+    background-color: #414141;
+    font-size: 20px;
+    font-family:monospace;
+}
+
+
+.navbar1 {
+/*    width: 100%;*/
+/*    background-color: ;*/
+    overflow: auto;
+}
+
+/* Navigation links */
+.navbar1 a {
+    float: left;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width:0%;
+    /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center;
+    /* If you want the text to be centered */
+}
+
+/* Add a background color on mouse-over */
+.navbar1 a:hover {
+    background-color: #000;
+}
+
+/* Style the current/active link */
+.navbar1 a:active {
+    background-color: #529dcc;
+}
