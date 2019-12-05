@@ -82,7 +82,7 @@ class NormalParticle {
     show() {
         //   noStroke();
         fill(255, 90);
-        ellipse(this.x, this.y, 8, 8);
+        ellipse(this.x, this.y/2 + 215, 8, 8);
     }
 
 
