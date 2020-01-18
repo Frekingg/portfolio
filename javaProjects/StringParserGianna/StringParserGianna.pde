@@ -97,8 +97,8 @@ void draw(){
   if(millis()-startTime>0){
       startTime += 5000;
   
-  for(int i =0; i<100;i++){
-      m = (int)(Math.random()*4) +1;
+  for(int i =0; i<=4;i++){
+      m +=1;
   
   if (m==1){
     background(0);
@@ -223,6 +223,9 @@ if (m==3){
     //if(millis()>=last + 24000){
     //  last = millis();
     //}
+      }
+      if(m==4){
+        m=0;
       }
     }
   }
