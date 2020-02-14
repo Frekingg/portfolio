@@ -41,18 +41,18 @@ public class MovieList {
   
   public String Comment() {
     if (getAverageScore()>3.5) {
-      return "excellent";
+      return "positive";
     } 
     if (getAverageScore()>2.5) {
-      return "pretty good";
+      return "somewhat positive";
     }
     if (getAverageScore()>1.5) {
-      return "decent";
+      return "neutral";
     }
     if (getAverageScore()>.5) {
-      return "okay";
+      return "somewhat negative";
     }
-      return  "horrible";
+      return  "negative";
   }
   public void sortMoviesByCount() {
     Collections.sort(movieList);
