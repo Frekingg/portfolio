@@ -1,6 +1,13 @@
+import java.io.File;
+import java.io.IOException;
+import java.util.Map;
+import java.util.TreeMap;
+import java.util.Scanner;
+import static java.lang.System.*;
+
 public class Part implements Comparable<Part>
 {
-  private String make, model, theRest;
+  private String make, model, theRest = "";
   private int year;
 
   public Part(String line) 
